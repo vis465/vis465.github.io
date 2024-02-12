@@ -10,7 +10,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
-
+<style>
+  
+</style>
 </head>
 
 <body>
@@ -24,10 +26,12 @@
       </div>
     </nav>
   </header>
-  <div id="loading-instructions">
-    <h2>Loading...</h2>
-    <p>Please wait while the page is loading.</p>
-  </div>
+
+  <center><div id="loading-instructions" class="mx-auto my-auto mt-5 mt-5" style="color: white; font: monteserrat; font-style: italic;">
+    <h2>Hang On!</h2>
+    <h3>Please read the Details and guidelines before registering</h3>
+  </div></center>
+
   <section class="container  p-md-3 p-sm-2 pt-lg-5 home-main text-center" data-aos="fade-up" data-aos-delay="1000"
     data-aos-easing="ease-in-out" data-aos-once="true">
     <div class="row ">
@@ -57,7 +61,7 @@
     </div>
 
     <br>
-    <marquee><h3>Registration 300INR per person | Pay once and get access to all the events | Read the registration instructions carefully before submitting the form</h3></marquee>
+    <marquee scrollamount="8"><h3>Registration 300INR per person | Pay once and get access to all the events | Read the registration instructions carefully before submitting the form</h3></marquee>
     
   </section>
 
@@ -70,7 +74,7 @@
         <div>
           <h1 class="mt-4"><img src="./sonalogo.png" height="100" width="" /></h1>
         </div>
-        <h5 class="mt-5 px-5" style="text-align: justify;">
+        <h5 class="mt-5 px-5" >
           PORT'24, hosted by Department of IT and AI&DS,
           promises an exhilarating amalgamation of technical expertise,
           creative expression, and competitive spirit. With an expected
@@ -431,7 +435,7 @@
 				          </div>
 				          <div class="panel-body">
 				            <p class="profile-name">Paper Presentation</p>
-                    <p class="profile-desc">simple description of image 2</p>
+                    <p class="profile-desc">Description coming soon</p>
                     <h1 class="mt-0 d-none">Coordinators List</h1>
                     <div class="table-responsive d-none">
                       <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
@@ -467,8 +471,8 @@
                   </a>
                 </div>
                 <div class="panel-body">
-                  <p class="profile-name">Coming Soon</p>
-                  <p class="profile-desc">Coming Soon</p>
+                  <p class="profile-name">Find me if you can</p>
+                  <p class="profile-desc">Description Coming Soon</p>
                   <h1 class="mt-0 d-none">Coordinators List</h1>
                   <div class="table-responsive d-none">
                     <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
@@ -550,7 +554,7 @@
                 </div>
                 <div class="panel-body">
                   <p class="profile-name">Loop and Repeat</p>
-                  <p class="profile-desc"></p>
+                  <p class="profile-desc">Description Coming Soon</p>
 
                   
                   <h1 class="mt-0 d-none">Coordinators List</h1>
@@ -564,12 +568,12 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <td class="table-coord-name-1">Mohan kumar</td>
-                          <td class="table-coord-num-1">8220273058</td> 
+                          <td class="table-coord-name-1">Person 1</td>
+                          <td class="table-coord-num-1">Contact 1</td> 
                         </tr>
                         <tr>
-                          <td class="table-coord-name-2">Shanavi Devi</td>
-                          <td class="table-coord-num-2">7397733555</td> 
+                          <td class="table-coord-name-2">Person 2</td>
+                          <td class="table-coord-num-2">Contact 2</td> 
                         </tr>
                       </tbody>
                     </table>
@@ -600,14 +604,12 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
-                          <td class="table-coord-name-1">Dhanush SG</td>
-                          <td class="table-coord-num-1">9994184935</td> 
+                        <td class="table-coord-name-1">Mohan kumar</td>
+                          <td class="table-coord-num-1">8220273058</td> 
                         </tr>
                         <tr>
-                          <td class="table-coord-name-2">Thanusri</td>
-                          <td class="table-coord-num-2">9025532012</td> 
-                        </tr>
+                          <td class="table-coord-name-2">Shanavi Devi</td>
+                          <td class="table-coord-num-2">7397733555</td> 
                         
                       </tbody>
                     </table>
@@ -811,7 +813,7 @@
     setTimeout(function () {
       // Hide loading instructions after the page has loaded
       document.getElementById("loading-instructions").style.display = "none";
-    }, 3000); // Adjust the delay time as needed
+    }, 800); // Adjust the delay time as needed
   });
   
   document.querySelector('.modal-profile .close').addEventListener('click', function() {
