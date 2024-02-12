@@ -24,6 +24,10 @@
       </div>
     </nav>
   </header>
+  <div id="loading-instructions">
+    <h2>Loading...</h2>
+    <p>Please wait while the page is loading.</p>
+  </div>
   <section class="container  p-md-3 p-sm-2 pt-lg-5 home-main text-center" data-aos="fade-up" data-aos-delay="1000"
     data-aos-easing="ease-in-out" data-aos-once="true">
     <div class="row ">
@@ -799,7 +803,16 @@
   });
   
   
-  
+  document.addEventListener("DOMContentLoaded", function () {
+    // Display loading instructions
+    document.getElementById("loading-instructions").style.display = "block";
+
+    // Simulate a delay (you can replace this with your actual loading process)
+    setTimeout(function () {
+      // Hide loading instructions after the page has loaded
+      document.getElementById("loading-instructions").style.display = "none";
+    }, 3000); // Adjust the delay time as needed
+  });
   
   document.querySelector('.modal-profile .close').addEventListener('click', function() {
       var modal = document.querySelector(".modal-profile");
