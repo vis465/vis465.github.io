@@ -1,199 +1,821 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
+
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>PORT 2024</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Port'24</title>
+  <link rel="icon" href="/logofinal.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
 
 </head>
 
 <body>
-
-    <!-- home
-    ================================================== -->
-    <main class="s-home s-home--particles">
-
-        <div id="particles-js" class="home-particles"></div>
-        
-        <div class="gradient-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="home-logo">
-                <a href="index-particles.html">
-                   <h3 style="font:monteserrat">PORT 2024.</h3>
-                </a>
-            </div>
-
-            <div class="row home-content__main">
-
-                <div class="col-eight home-content__text pull-right">
-                    <h3>Welcome to PORT 2024</h3>
-
-                    <h1>
-                    We are currently working <br>
-                    on a new super awesome <br> website.
-                    </h1>
-
-                    <p>
-                    NATIONAL LEVEL TECHNICAL SYMPOSIUM HOSTED BY DEPARTMENT OF INFORMATION TECHNOLOGY, SONA  COLLEGE OF TECHNOLOGY
-                    </p>
-
-                    <div class="home-content__subscribe">
-                        <form id="mc-form" class="group" novalidate="true">
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                            <input type="submit" name="subscribe" value="Notify Me">
-                            <label for="mc-email" class="subscribe-message"></label>
-                        </form>
-                    </div>
-                </div>  <!-- end home-content__text -->
-
-                <div class="col-four home-content__counter">
-                    <h3>Launching In</h3>
-
-                    <div class="home-content__clock">
-                        <div class="top">
-                            <div class="time days">
-                                325
-                                <span>Days</span>
-                            </div>
-                        </div>    
-                        <div class="time hours">
-                            09
-                            <span>H</span>
-                        </div>
-                        <div class="time minutes">
-                            54
-                            <span>M</span>
-                        </div>
-                        <div class="time seconds">
-                            30
-                            <span>S</span>
-                        </div>
-                    </div>  <!-- end home-content__clock -->
-                </div>  <!-- end home-content__counter -->
-
-            </div>  <!-- end home-content__main -->
-
-            <ul class="home-social">
-                <li>
-                <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-                </li>
-            </ul> <!-- end home-social -->
-
-            <div class="row home-copyright">
-                <span>Copyright port 2024</span> 
-                <span>Design by TEAM PORT</span>
-            </div> <!-- end home-copyright -->
-
-
-            <div class="home-content__line"></div>
-
-        </div> <!-- end home-content -->
-
-    </main> <!-- end s-home -->
-
-
-    <!-- info
-    ================================================== -->
-    <a class="info-toggle" href="#0">
-        <span class="info-menu-icon"></span>
-    </a>
-
-    <div class="s-info">
-
-        <div class="row info-wrapper">
-
-            <div class="col-seven tab-full info-main">
-                <h1>We are PORT. We make awesome stuff.</h1>
-                
-                <h3 style="color:white">Visit previous webpage:</h3>
-                <li>
-                    <a href="https://www.sonatech.ac.in/it/port2023/">PORT 2023</a></li>
-            </div>
-
-            <div class="col-four tab-full pull-right info-contact">
-
-                <div class="info-block">
-                    <h3>Start A Conversation</h3>
-                    <p>
-                        <a href="mailto:port.it@sonatech.ac.in" class="info-email">port.it@sonatech.ac.in</a><br>
-                        <a href="tel:+919384568844" class="'info-phone">+919384568844</a>
-                    </p>
-                </div>
-
-                <div class="info-block">
-                    <h3>Visit Us</h3>
-                    
-                    <p class="info-address">
-                        Sona College of Technology<br>
-                        Junction Main Road<br>
-                        Salem, Tamilnadu 636005<br>
-                    </p>
-                </div>
-
-                <div class="info-block">
-                    <h3>Find Us On</h3>
-                    
-                    <ul class="info-social">
-                        <li>
-                            <a href="https://www.instagram.com/port.it/"><i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span>Instagram</span></a>
-                        </li>
-                    </ul>
-                </div>
-                
-            </div>  <!-- end info contact -->
-
-        </div>  <!-- end info wrapper -->
-
-    </div> <!-- end s-info -->
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale-pulse-out">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+  <div id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1498"
+      height="782"></canvas></div>
+  <header>
+    <nav class="navbar navbar-expand-lg px-lg-3 py-lg-3  ">
+      <div class="container-fluid" >
+        <a class="navbar-brand mx-auto" href="#">PORT'24</a>
         </div>
+      </div>
+    </nav>
+  </header>
+  <section class="container  p-md-3 p-sm-2 pt-lg-5 home-main text-center" data-aos="fade-up" data-aos-delay="1000"
+    data-aos-easing="ease-in-out" data-aos-once="true">
+    <div class="row ">
+      <h1>
+        <img src="./logofinal.png" />
+      </h1>
+      <h5>A NATIONAL LEVEL TECHNICAL SYMPOSIUM</h5>
+      <div class="col mt-4  px-2 space-between">
+
+        <a href="port-1.jpg" download="portfinal.png">
+          <button class="button btn-outline rounded-3 p-2 px-2" type="button">
+            View Brochure
+          </button>
+        </a>
+
+       <a href="index.html#profiles"> <button class="button btn-outline rounded-3 p-2 px-2" type="button" >
+          view Events
+        </button></a>
+        
+      </div>
+      <h3>Join<span>~</span>Learn<span>~</span>Compete</h3>
+      <br><br>
+      <a href="./registration.html"> <button class="button btn-outline rounded-3 p-2 px-2" type="button" >
+        Register Now
+      </button></a>
+      
     </div>
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/polygons.js"></script>
-    <script src="js/main.js"></script>
+    <br>
+    <marquee><h3>Registration 300INR per person | Pay once and get access to all the events | Read the registration instructions carefully before submitting the form</h3></marquee>
+    
+  </section>
+
+  <section class="about p-lg-5 p-md-3 p-sm-2 text-center" section="about" data-aos="fade-up" data-aos-delay="1000"
+    data-aos-easing="ease-in-out" data-aos-once="true">
+    <div class="row">
+      <div>
+        <h4 class="mt-2">Department of Information Technology</h4>
+        <h4 class="mt-2">[B.Tech - IT, B.Tech - AI&DS, M.Tech - IT]</h4>
+        <div>
+          <h1 class="mt-4"><img src="./sonalogo.png" height="100" width="" /></h1>
+        </div>
+        <h5 class="mt-5 px-5">
+          PORT'24, hosted by Department of IT and AI&DS,
+          promises an exhilarating amalgamation of technical expertise,
+          creative expression, and competitive spirit. With an expected
+          attendance of around 1000 students from various parts of Tamil
+          Nadu, the event serves as a melting pot of ideas, talent, and
+          diversity. Participants will have the opportunity to network, learn,
+          and compete on a national stage.
+        </h5>
+      </div>
+    </div>
+
+  </section>
+  <h1 class="mx-auto event-heading" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out"
+    data-aos-once="true">EVENTS</h1>
+  <section class="cards-wrapper " data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out"
+    data-aos-once="true">
+    <div class="card-grid-space">
+      <div class="num">01</div>
+      <a class="card"  style="--bg-img: url(6101073.jpg)" href="#workshops">
+        <div>
+          <br>
+          <h1 class="ml-0" style="color: white;">WORKSHOPS</h1>
+          <div class="date ">23-February-2024
+            <br>
+          </div>
+
+        </div>
+      </a>
+    </div>
+    <div class="card-grid-space">
+      <div class="num">02</div>
+      <a class="card" style="--bg-img: url('52217.jpg')" href="#technical">
+        <div>
+          <br>
+          <h1 class="mx-auto" style="color: white;">TECHNICAL EVENTS</h1>
+
+          <div class="date" >24-February-2024</div>
+        </div>
+      </a>
+    </div>
+    <div class="card-grid-space">
+      <div class="num">03</div>
+      <a class="card" style="--bg-img: url('56091.jpg')" href="#non-technical">
+        <div>
+          <br>
+          <h1 class="mx-auto" style="color: white;">NON-TECHNICAL EVENTS</h1>
+          <div class="date">24-February-2024</div>
+
+        </div>
+      </a>
+    </div>
+    <!-- https://images.unsplash.com/photo-1520839090488-4a6c211e2f94?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38951b8650067840307cba514b554ba5&auto=format&fit=crop&w=1350&q=80 -->
+  </section>
+  <h1 class="event-heading" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+    TIMELINE</h1>
+    <p class="text-center d-lg-block d-md-none d-sm-none " style="color: white;" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos-once="true">(click on the icon to know description of event)</p>
+    <br>
+
+  
+<div id="maincontent">
+  <section id="timeline" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+
+    <div class="timeline">
+      <h3 class="">WORKSHOPS</h3>
+      <ul>
+        <li>
+          <span>23th February 2024</span>
+          <div class="content">
+            <h3>Unlock AI Potential: Get Hands-on with Intel</h3>
+
+          </div>
+        </li>
+        <li>
+          <span>23th February 2024</span>
+          <div class="content">
+            <h3>Generative AI</h3>
+
+          </div>
+        </li>
+        <li>
+          <span>23th February 2024</span>
+          <div class="content">
+            <h3>Unlocking the power of DSA</h3>
+
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="">TECHNICAL EVENTS</h3>
+      <ul>
+        <li>
+          <span>24th February 2024</span>
+          <div class="content">
+            <h3>Paper Presentation</h3>
+
+          </div>
+        </li>
+        <li>
+          <span>24th February 2024</span>
+          <div class="content">
+            <h3>Hack-fest</h3>
+
+          </div>
+        </li>
+        <li>
+          <span>24th February 2024</span>
+          <div class="content">
+            <h3>Code Morphism</h3>
+
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="">NON-TECHNICAL EVENTS</h3>
+      <ul>
+        <li>
+          <span>24th February 2024</span>
+          <div class="content">
+            <h3>Link Up</h3>
+
+          </div>
+        </li>
+        <li>
+          <span>24th February 2024</span>
+          <div class="content">
+            <h3>Loop and Repeat</h3>
+
+          </div>
+        </li>
+        <li>
+          <span>24th February 2024</span>
+          <div class="content">
+            <h3>Short Film</h3>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+<div id="eventsmain">
+  <section id="profiles" class="page">
+  
+		<div class="container " data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+   
+				
+			<div class="container-fluid">
+				<div class="row" id="profile-grid">
+          <div class="mx-auto event-head py-sm-3 text-center " id="workshops">
+            <h3 class="mx-auto d-lg-none" >Workshops</h3>
+            <p class="text-center d-lg-none" style="color: white;" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos-once="true">(click on the icon to know description of event)</p>
+    
+          </div>
+				
+					<div class="col-sm-4 col-xs-12 profile" >
+				        <div class="panel panel-default">
+				          <div class="panel-thumbnail">
+				          	<a href="#" title="IntelOneApi" class="thumb">
+				          		<img src="./oneApi.png" style="width:195px;">
+				          
+				          </div>
+				          <div class="panel-body">
+				            <p class="profile-name">Unlock AI Potential: Get Hands-on with Intel</p>
+				            <p class="profile-desc">Unlock AI Potential: Get Hands-on with Intel</p>
+                    <h1 class="mt-0 d-none">Coordinators List</h1>
+          <div class="table-responsive d-none">
+            <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Contact</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="table-coord-name-1">Shriram Vasudevan</td>
+                  <td class="table-coord-num-1">Certified OneAPI trainer</td> 
+                </tr>
+                <tr>
+                  <td class="table-coord-name-2">Ragul R</td>
+                  <td class="table-coord-num-2">9345410872</td> 
+                </tr>
+               
+                
+                
+              </tbody>
+            </table>
+          </div>	</a>
+				          </div>
+				        </div>
+				    </div>
+                  
+					<div class="col-sm-4 col-xs-12 profile">
+				        <div class="panel panel-default">
+				          <div class="panel-thumbnail">
+				          	<a href="#" title="Generative AI" class="thumb">
+				          		<img src="./genai.png" style="width:260px;">
+				          	</a>
+				          </div>
+				          <div class="panel-body">
+				            <p class="profile-name">Generative AI</p>
+				            <p class="profile-desc">Generative AI</p>
+                    <h1 class="mt-0 d-none">Coordinators List</h1>
+                    <div class="table-responsive d-none">
+                      <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Contact</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="table-coord-name-1">Mr.S David Samuel Azariya (Assistant professor- IT)</td>
+                            <td class="table-coord-num-1">9843790325</td> 
+                          </tr>
+                          <tr>
+                            <td class="table-coord-name-2"></td>
+                            <td class="table-coord-num-2"></td> 
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+				          </div>
+				        </div>
+				    </div>
+
+					<div class="col-sm-4 col-xs-12 profile">
+				        <div class="panel panel-default">
+				          <div class="panel-thumbnail">
+				          	<a href="#" title="Unlocking the Power of DSA" class="thumb">
+                      <img src="./dsa.png" style="width:280px;">
+				          		</a>
+				          </div>
+				          <div class="panel-body">
+				            <p class="profile-name">Unlocking the Power of DSA</p>
+				            <p class="profile-desc">Unlocking the Power of DSA</p>
+                    <h1 class="mt-0 d-none">Coordinators List</h1>
+                    <div class="table-responsive d-none">
+                      <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Contact</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="table-coord-name-1">Mr.B.Mohanraj (Assistant Professor -IT)</td>
+                            <td class="table-coord-num-1">9965087123</td> 
+                          </tr>
+                          <tr>
+                            <td class="table-coord-name-2"></td>
+                            <td class="table-coord-num-2"></td> 
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+				          </div>
+				        </div>
+				    </div> 
+            <div class="mx-auto event-head py-sm-3 text-center "  id="technical">
+              <h3 class="mx-auto d-lg-none" >Technical events</h3>
+              <p class="text-center d-lg-none" style="color: white;" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos-once="true">(click on the icon to know description of event)</p>
+    
+            </div>
+           
+                  
+					<div class="col-sm-4 col-xs-12 profile" >
+				        <div class="panel panel-default">
+				          <div class="panel-thumbnail">
+				          	<a href="#" title="Code Morphism" class="thumb">
+                      <img src="./codeMorphism.png" style="width:300px;">
+				          	</a>
+				          </div>
+				          <div class="panel-body">
+				            <p class="profile-name">Code Morphism</p>
+                    <p class="profile-desc">Welcome to Codemorphic, where coding battles are as unpredictable as a squirrel on a
+                      caffeine high! Dive into the chaos of C, C++, Java, Python, JavaScript, MySQL, and more. Solve
+                      problem statements faster than a joke lands at a comedy club and outwit your opponents with your
+                      coding wit. The team with the most problems cracked gets to boast about their victory while
+                      enjoying a slice of coding fame!</p>
+                    <h1 class="mt-0 d-none">Coordinators List</h1>
+                    <div class="table-responsive d-none">
+                      <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Contact</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="table-coord-name-1">Thamarai</td>
+                            <td class="table-coord-num-1">9500278503</td> 
+                          </tr>
+                          <tr>
+                            <td class="table-coord-name-2">Viswa </td>
+                            <td class="table-coord-num-2">8825557272</td> 
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+				          </div>
+				        </div>
+				    </div>                  
+
+                  
+                  	<div class="col-sm-4 col-xs-12 profile">
+				        <div class="panel panel-default">
+				          <div class="panel-thumbnail">
+				          	<a href="#" title="Hack-fest" class="thumb">
+				          		<img src="./miniHackathon.png" style="width:175px;">
+				          	</a>
+				          </div>
+				          <div class="panel-body">
+				            <p class="profile-name">Hack-fest</p>
+                    <p class="profile-desc">Get ready to put your coding skills to the test in our exhilarating "Hack-fest" event! This fast-paced competition is designed to challenge your problem-solving abilities and creativity within a limited timeframe of 2 hours.<br>
+                  <br>
+                     </p>
+
+                    <h1 class="mt-0 d-none">Coordinators List</h1>
+                    <div class="table-responsive d-none">
+                      <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Contact</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="table-coord-name-1">Kannan</td>
+                            <td class="table-coord-num-1">9894630520</td> 
+                          </tr>
+                          <tr>
+                            <td class="table-coord-name-2">Preethika L</td>
+                            <td class="table-coord-num-2">9361386899</td> 
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+				          </div>
+				        </div>
+				    </div>
+
+                  
+                  	<div class="col-sm-4 col-xs-12 profile">
+				        <div class="panel panel-default">
+				          <div class="panel-thumbnail">
+				          	<a href="#" title="Paper Presentation" class="thumb">
+				          		<img src="./paperPresentation.png" style="width:175px;">
+                      </a>
+				          </div>
+				          <div class="panel-body">
+				            <p class="profile-name">Paper Presentation</p>
+                    <p class="profile-desc">simple description of image 2</p>
+                    <h1 class="mt-0 d-none">Coordinators List</h1>
+                    <div class="table-responsive d-none">
+                      <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Contact</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="table-coord-name-1">Karthik R</td>
+                            <td class="table-coord-num-1">8610004099</td> 
+                          </tr>
+                          <tr>
+                            <td class="table-coord-name-2">Gayathri</td>
+                            <td class="table-coord-num-2">6381482971</td> 
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+
+				          </div>
+				        </div>
+				    </div>
+
+            <div class="col-sm-4 col-xs-12 profile" >
+              <div class="panel panel-default">
+                <div class="panel-thumbnail">
+                  <a href="#" title="Catch me if you can" class="thumb">
+                    <img src="catch.png" style="width:200px;">
+                  </a>
+                </div>
+                <div class="panel-body">
+                  <p class="profile-name">Coming Soon</p>
+                  <p class="profile-desc">Coming Soon</p>
+                  <h1 class="mt-0 d-none">Coordinators List</h1>
+                  <div class="table-responsive d-none">
+                    <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Contact</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="table-coord-name-1">name1</td>
+                          <td class="table-coord-num-1">num1</td> 
+                        </tr>
+                        <tr>
+                          <td class="table-coord-name-2">name2 </td>
+                          <td class="table-coord-num-2">num2</td> 
+                        </tr>
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+          </div>         
+
+            <div class="mx-auto event-head py-sm-3 text-center" id="non-technical">
+              <h3 class="mx-auto px-sm-5 py-sm-3 d-lg-none" >Non-Technical Events</h3>
+              <p class="text-center d-lg-none" style="color: white;" data-aos="fade-up" data-aos-delay="1000" data-aos-easing="ease-in-out" data-aos-once="true">(click on the icon to know description of event)</p>
+    
+            </div>
+
+            <div class="col-sm-4 col-xs-12 profile" id="non-technical">
+              <div class="panel panel-default">
+                <div class="panel-thumbnail">
+                  <a href="#" title="Linkup" class="thumb">
+                    <img src="./photography.png" style="width:132px;">
+                  </a>
+                </div>
+                <div class="panel-body">
+                  <p class="profile-name">Link Up</p>
+                  <p class="profile-desc">Connectify Challenge is an engaging and dynamic game designed to test your
+                    knowledge across various topics, movies, songs, and internet memes. With three exciting
+                    stages, players will embark on a journey of connections, linking seemingly unrelated
+                    elements in a race against time</p>
+                  <h1 class="mt-0 d-none">Coordinators List</h1>
+                  <div class="table-responsive d-none">
+                    <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Contact</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="table-coord-name-1">Nikkitha Lakshmi </td>
+                          <td class="table-coord-num-1">7904793818</td> 
+                        </tr>
+                        <tr>
+                          <td class="table-coord-name-2">Aadil</td>
+                          <td class="table-coord-num-2">9092961762</td> 
+                        </tr>
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+          </div>                  
+
+                
+                  <div class="col-sm-4 col-xs-12 profile">
+              <div class="panel panel-default">
+                <div class="panel-thumbnail">
+                  <a href="#" title="Connections" class="thumb">
+                    <img src="img3.jpg" style="width:200px;">
+                  </a>
+                </div>
+                <div class="panel-body">
+                  <p class="profile-name">Loop and Repeat</p>
+                  <p class="profile-desc"></p>
+
+                  
+                  <h1 class="mt-0 d-none">Coordinators List</h1>
+                  <div class="table-responsive d-none">
+                    <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Contact</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="table-coord-name-1">Mohan kumar</td>
+                          <td class="table-coord-num-1">8220273058</td> 
+                        </tr>
+                        <tr>
+                          <td class="table-coord-name-2">Shanavi Devi</td>
+                          <td class="table-coord-num-2">7397733555</td> 
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+                
+                  <div class="col-sm-4 col-xs-12 profile">
+              <div class="panel panel-default">
+                <div class="panel-thumbnail">
+                  <a href="#" title="Short Film" class="thumb">
+                    <img src="./shortfilm.png" style="width:200px;">
+                    </a>
+                </div>
+                <div class="panel-body">
+                  <p class="profile-name">Short Film</p>
+                  <p class="profile-desc">
+                   .</p>
+                  <h1 class="mt-0 d-none">Coordinators List</h1>
+                  <div class="table-responsive d-none">
+                    <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Contact</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="table-coord-name-1">Dhanush SG</td>
+                          <td class="table-coord-num-1">9994184935</td> 
+                        </tr>
+                        <tr>
+                          <td class="table-coord-name-2">Thanusri</td>
+                          <td class="table-coord-num-2">9025532012</td> 
+                        </tr>
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+          </div>
+        
+   				 </div>
+			</div>
+		</div>
+  </div>
+  </div>
+
+	</section>
+	
+	<!-- .modal-profile -->
+  <div class="modal fade modal-profile" tabindex="-1" role="dialog" aria-labelledby="modalProfile" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <h3 class="modal-title"></h3>
+            </div>
+            <div class="modal-body">
+                <img class="modal-image" style="width: 50%;">
+                <div class="modal-text">
+                    <p class="modal-desc">
+                  
+                    </p>
+                    <h1 class="mt-0">Coordinators List</h1>
+          <div class="table-responsive">
+            <table id="example" style="width:80%" class="table table-striped table-bordered mx-auto">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Contact</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="modal-table-name-1"></td>
+                  <td class="modal-table-num-1"></td> 
+                </tr>
+                <tr>
+                  <td class="modal-table-name-2"></td>
+                  <td class="modal-table-num-2"></td> 
+                </tr>
+                
+
+                
+              </tbody>
+            </table>
+          </div>
+                </div>
+            </div>
+
+            <center><a href="./registration.html"> <button class="btn btn-outline-danger rounded-3 p-2 px-2" type="button" >
+              Register Now
+            </button></a></center>
+
+          
+
+        </div>
+    </div>
+</div>
+
+	<!-- //.modal-profile -->
+		</div>
+
+	</section>
+	
+	<!-- .modal-profile -->
+
+	<!-- //.modal-profile -->
+
+  <center><a href="./registration.html"> <button class="button btn-outline rounded-3 p-2 px-2" type="button" >
+    Register Now
+  </button></a></center>
+
+  <br>
+</div>
+  </section>
+  <section class="contact-section bg-black" id="contact">
+    <div class="container pt-3">
+
+      <div class="row mt-3">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-2 h-100">
+            <div class="card-body text-center">
+              <i class="fa fa-map text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">Sona College of Technology, Junction Main Rd, Salem, Tamil Nadu 636005</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fa fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="mailto:port.it@sonatech.ac.in" style="text-decoration: none;">port.it@sonatech.ac.in</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fa fa-phone text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50 row"><b>Absar K - 7871467705</b>
+              <b>Praveen SA - 9442860666</b>
+            <b>Vishal V - 9384568844</b>
+          <b>Haridra N - 6366266552</b>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<br><br>
+      <div class="d-flex justify-content-center text-white">
+        <a href="https://www.instagram.com/port.it/" class="mx-2 " target="_blank">
+          <img src="./instalogo.png" height="20">
+        port.it
+          </a>
+          <a href="https://www.instagram.com/it_dept_sona/" class="mx-2" target="_blank">
+            <img src="./instalogo.png" height="20">
+          it_dept_sona
+          </a>
+        </div>
+        <center>
+          <br><br>
+
+          </center>
+<!-- Copyright -->
+<div class="text-center p-3"  style="color: white;">
+  Copyright 2024 © Department of IT [B.Tech - IT, B.Tech - ADS, M.Tech - IT]
+</div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    var multipleCardCarousel = document.querySelector(
+      "#carouselExampleControls"
+    );
+
+  </script>
+  <script>
+    document.querySelectorAll('.thumb').forEach(function(thumb) {
+      thumb.addEventListener('click', function(event) {
+          event.preventDefault();
+          var content = document.querySelector('.modal-body');
+          var title = this.getAttribute("title");
+          var description = this.parentNode.parentNode.querySelector('.profile-desc').textContent;
+          var imageSrc = this.querySelector('img').src;
+          var coordinatorName1 = this.parentNode.parentNode.querySelector('.table-coord-name-1').textContent;
+          var coordinatorNum1 = this.parentNode.parentNode.querySelector('.table-coord-num-1').textContent;
+         
+          var coordinatorName2 = this.parentNode.parentNode.querySelector('.table-coord-name-2').textContent;
+          var coordinatorNum2 = this.parentNode.parentNode.querySelector('.table-coord-num-2').textContent;
+        
+          
+          document.querySelector('.modal-title').innerHTML = title;
+          document.querySelector('.modal-desc').innerHTML = description;
+          document.querySelector('.modal-image').src = imageSrc;
+          document.querySelector('.modal-table-name-1').innerHTML = coordinatorName1;
+          document.querySelector('.modal-table-num-1').innerHTML = coordinatorNum1;
+
+          document.querySelector('.modal-table-name-2').innerHTML = coordinatorName2;
+          document.querySelector('.modal-table-num-2').innerHTML = coordinatorNum2;
+
+          var modal = document.querySelector(".modal-profile");
+          modal.classList.add('show');
+          modal.style.display = 'block';
+      });
+  });
+  
+  
+  
+  
+  document.querySelector('.modal-profile .close').addEventListener('click', function() {
+      var modal = document.querySelector(".modal-profile");
+      modal.classList.remove('show');
+      modal.style.display = 'none';
+  });
+  document.querySelector('.modal-footer button[data-dismiss="modal"]').addEventListener('click', function() {
+    var modal = document.querySelector(".modal-profile");
+    modal.classList.remove('show');
+    modal.style.display = 'none';
+});
+      
+  </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+
 
 </body>
 

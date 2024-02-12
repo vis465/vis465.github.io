@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register here</title>
+    <link rel="icon" href="/logofinal.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+       .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
+      color: white;
+      backdrop-filter: blur(5px); 
+    }
+    #payment {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #payment img {
+      max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+      height: auto;    /* Maintains the aspect ratio of the image */
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      #payment {
+        height: auto;
+      }
+    }
+    .overlay-content {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left; /* Center the content horizontally */
+}
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Adjust this if needed */
+      }  
+      nav {
+        padding: 2% 0 2% 0;
+      }
+    
+      iframe {
+        margin-top: 5%;
+        background-color: inherit;
+      }
+      a{
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay" id="overlay">
+      <div class="overlay-content">
+        <h2>Registration Instructions</h2>
+<p>Before initiating the registration process, carefully go through the following information:</p>
+<ol>
+    <li>Thoroughly review the details and descriptions of the listed events on this page.</li>
+    <li>Registration for each event and workshop is priced at <strong>300INR per person</strong>.</li>
+    <li>Workshop registration is subject to seat availability.</li>
+    <li>For Day 1 (23/02/2024), your workshop registration provides access to <strong>ONLY ONE WORKSHOP</strong>.</li>
+    <li>On Day 2 (24/02/2024), a <strong>single registration</strong> is all you need to participate in <strong> any number of events</strong>.</li>
+    <li>Plan your participation, <strong>complete payment via the provided UPI QR code</strong>, and note the transaction ID.</li>
+    <li>After successful payment and registration, our team will authorize your registration within 24 hours.</li>
+    <li>Once authorized, you will receive a <strong>Confirmation Mail</strong> containing comprehensive event/workshop details and a <strong>QR code.</strong></li>
+    <li>Keep the generated QR code handy for organizer's requests throughout the event.</li>
+    <li>For any further inquiries, don't hesitate to contact us via phone or email for swift assistance.</li>
+</ol>
+
+        </li>
+        <label for="acceptTerms">I accept the terms and conditions *
+          <input type="checkbox" id="acceptTerms">
+        </label><br><br>
+        <button onclick="closeOverlay()" style="text-align: center;" class="btn btn-outline-danger">OK</button>
+      </div>
+    </div>
+    
+    <div id="particles-js">
+      <canvas
+        class="particles-js-canvas-el"
+        style="width: 100%; height: 100%"
+        width="1498"
+        height="782"
+      ></canvas>
+    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg px-lg-3 py-lg-3  ">
+        <a href="/index.html">
+        <button type="button" class="btn btn-outline-danger d-flex flex-row align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left pe-1" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"></path>
+          </svg>
+          <a href="index.html"><span>Back</span></a>
+        </button></a>
+        
+        <div class="container-fluid" >
+          <i class="bi bi-arrow-left"></i>
+          <a class="navbar-brand mx-auto" href="/index.html">PORT'24</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  
+    <div class="container" style="color: white;">
+      <div class="row">
+        <div class="col-lg-6" >
+          <h1>Register for Workshops</h1>
+          <p>
+            Register for the workshops and learn from the best in the industry.
+          </p>
+          <!-- <input type="submit" style="background-image: linear-gradient(-225deg,#2fe18e 29%, #287a93 100%,#aee0e1 29%,#19b069 67%);" name="subscribe" value="Register for Workshops"> -->
+          <button onclick="popup('copy-of-port-2024-100031');" class="tsbutton" id="register" style="background-image: linear-gradient(-225deg,#2fe18e 29%, #287a93 100%,#aee0e1 29%,#19b069 67%);">Register Now</button>
+           <noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript>
+        </div>
+        <div class="col-lg-6">
+          <h1>Register for Events</h1>
+          <p>
+            Register for the events and have a great time with your 
+             friends.
+          </p>
+          <!-- <input type="submit" style="background-image: linear-gradient(-225deg,#2fe18e 29%, #287a93 100%,#aee0e1 29%,#19b069 67%);"name="subscribe" value="Register for Events"> -->
+          <button onclick="popup('port-2024-100031');" style="background-image: linear-gradient(-225deg,#2fe18e 29%, #287a93 100%,#aee0e1 29%,#19b069 67%);" class="tsbutton">Register Now</button>
+        </div>
+      </div>
+    
+    </div>
+    <!-- <img src="/paymet.jpeg" id="payment QR"> -->
+    
+  </body>
+  <div id="payment">
+  <img src="/ioh.png" id="payment QR">
+  </div>
+  <script>
+    // Show the overlay on page load
+    window.onload = function () {
+      document.getElementById("overlay").style.display = "flex";
+    };
+    function openOverlay() {
+      document.getElementById("overlay").style.display = "flex";
+    }
+
+    function closeOverlay() {
+      var acceptTermsCheckbox = document.getElementById("acceptTerms");
+
+      if (acceptTermsCheckbox.checked) {
+        document.getElementById("overlay").style.display = "none";
+      } else {
+        alert("Please accept the terms and conditions.");
+      }
+    }
+  </script>
+
+  <script>
+    window.onhashchange = function () {
+      //blah blah blah
+      window.history.back();
+    }
+  </script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+
+  <!-- Your existing script tags -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js"></script>
+  <noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript>
+
+<script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js"></script>
+<noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript>
+<script>
+    window.onhashchange = function() {
+        //blah blah blah
+        window.history.back();
+       }
+    </script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    
+  </body>
+  
+</html>
