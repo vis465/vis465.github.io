@@ -95,9 +95,6 @@ nav {
 }
 
 
-.model-title{
-  text-align: center;
-}
 
 .nav-link {
   color: #fff;
@@ -177,11 +174,15 @@ box-shadow: 5px 5px 10px 2px orangered, -5px -5px 10px 2px orangered;
 .home-main h5 {
   font-weight: 500;
   color: #94e4d6;
+  font-size: 2rem;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.whtsp-msg{
+  font-weight: 500;
   letter-spacing: 2px;
   font-size: 3rem;
   font-family: 'Bebas Neue', sans-serif;
 }
-
 .home-main h3 {
   margin-top: 3%;
   color: orangered;
@@ -206,7 +207,6 @@ box-shadow: 5px 5px 10px 2px orangered, -5px -5px 10px 2px orangered;
   background: transparent;
   text-transform: uppercase;
   transition: all .35s;
-  font-weight: 700;
 }
 
 .home-main button:before,
@@ -676,7 +676,7 @@ a {
   flex-wrap: wrap;
   justify-content:space-around;
 }
-#profile-grid { overflow: auto; white-space: normal; text-align-last: center;}
+#profile-grid { overflow: auto; white-space: normal; }
 #profile-grid .profile { padding-bottom: 40px;}
 #profile-grid .panel { padding: 0; }
 #profile-grid .panel-body { padding: 15px }
