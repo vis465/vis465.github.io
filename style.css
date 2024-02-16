@@ -605,8 +605,8 @@ a {
 .timeline ul li span {
   display: inline-block;
   background-color: #1685b8;
-  border-radius: 25px;
-  padding: 2px 5px;
+ border-radius: 20px;
+  padding: 2px 11px;
   font-size: 15px;
   text-align: center;
 }
