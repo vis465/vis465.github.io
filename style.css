@@ -94,6 +94,15 @@ nav {
   }
 }
 
+.sponser h3{
+  color: white;
+  text-transform: capitalize;
+}
+
+.column-gap-5 {
+  -moz-column-gap: 3rem!important;
+  column-gap: 15rem!important;
+}
 
 
 .nav-link {
