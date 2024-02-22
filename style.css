@@ -94,15 +94,6 @@ nav {
   }
 }
 
-.sponser h3{
-  color: white;
-  text-transform: capitalize;
-}
-
-.column-gap-5 {
-  -moz-column-gap: 3rem!important;
-  column-gap: 15rem!important;
-}
 
 
 .nav-link {
@@ -614,11 +605,26 @@ a {
 .timeline ul li span {
   display: inline-block;
   background-color: #1685b8;
- border-radius: 20px;
+  border-radius: 20px;
   padding: 2px 11px;
   font-size: 15px;
   text-align: center;
 }
+
+.reg-close {
+  font-family: 'Work Sans', sans-serif;
+font-weight: 900;
+font-size: 2rem;
+text-transform: uppercase;
+text-align: center;
+line-height: 1;
+color: orangered;
+}
+
+.reg-close span{
+font-size:1.5rem;
+}
+
 
 .timeline ul li .content h3 {
   color: #34ace0;
